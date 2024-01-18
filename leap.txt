@@ -1,0 +1,19 @@
+Start
+|
+|--- Input: Year
+|
+|--- Is Year divisible by 4?
+|    |
+|    |--- Yes: Is Year divisible by 100?
+|    |    |
+|    |    |--- Yes: Is Year divisible by 400?
+|    |    |    |
+|    |    |    |--- Yes: It's a Leap Year
+|    |    |    |
+|    |    |    |--- No: It's not a Leap Year
+|    |    |
+|    |    |--- No: It's a Leap Year
+|    |
+|    |--- No: It's not a Leap Year
+|
+End
